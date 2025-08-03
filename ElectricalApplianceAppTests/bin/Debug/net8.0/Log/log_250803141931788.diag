@@ -1,0 +1,26 @@
+2025-08-03T14:19:31.8037320+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.8.0+cbe2c37371429b81c53f85e4ab4ad62b4df7a71e
+2025-08-03T14:19:31.8289208+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-08-03T14:19:31.8326584+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-08-03T14:19:31.8326737+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 14:19:31.703
+2025-08-03T14:19:31.8350485+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 17152
+2025-08-03T14:19:31.8353293+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.17
+2025-08-03T14:19:31.8353575+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.17\System.Private.CoreLib.dll
+2025-08-03T14:19:31.8353794+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-08-03T14:19:31.8355317+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T14:19:31.8373614+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\Log --results-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\TestResults --client-port 54437'
+2025-08-03T14:19:31.8409361+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-08-03T14:19:31.8908096+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-08-03T14:19:31.9164560+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-08-03T14:19:32.2799872+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.10.0' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-08-03T14:19:32.3866007+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-08-03T14:19:32.4043889+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-08-03T14:19:32.5002114+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 11 tests from source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T14:19:32.5419753+00:00 mstest-trace INFORMATION Created unit-test runner C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T14:19:32.5566490+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll (Workers: 4, Scope: MethodLevel)
+2025-08-03T14:19:32.5761646+00:00 mstest-trace INFORMATION Executing test DeserializeFromJson_ValidData_ReturnsList
+2025-08-03T14:19:32.5761794+00:00 mstest-trace INFORMATION Executing test SerializeToJson_ValidData_CreatesFile
+2025-08-03T14:19:32.5762175+00:00 mstest-trace INFORMATION Executing test DeserializeFromJson_FileNotFound_ReturnsEmptyList
+2025-08-03T14:19:32.6283473+00:00 mstest-trace INFORMATION Executed test DeserializeFromJson_FileNotFound_ReturnsEmptyList
+2025-08-03T14:19:32.6638501+00:00 mstest-trace INFORMATION Executed test SerializeToJson_ValidData_CreatesFile
+2025-08-03T14:19:32.6859982+00:00 mstest-trace INFORMATION Executed test DeserializeFromJson_ValidData_ReturnsList
+2025-08-03T14:19:32.6866745+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll

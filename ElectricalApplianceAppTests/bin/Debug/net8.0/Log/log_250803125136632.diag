@@ -1,0 +1,36 @@
+2025-08-03T12:51:36.6487013+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.8.0+cbe2c37371429b81c53f85e4ab4ad62b4df7a71e
+2025-08-03T12:51:36.6724406+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-08-03T12:51:36.6761554+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-08-03T12:51:36.6761690+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 12:51:36.584
+2025-08-03T12:51:36.6774634+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 15504
+2025-08-03T12:51:36.6777443+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.17
+2025-08-03T12:51:36.6777685+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.17\System.Private.CoreLib.dll
+2025-08-03T12:51:36.6777896+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-08-03T12:51:36.6779068+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T12:51:36.6784359+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\Log --results-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\TestResults --client-port 54169'
+2025-08-03T12:51:36.6819724+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-08-03T12:51:36.7402127+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-08-03T12:51:36.7651634+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-08-03T12:51:37.2570968+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.10.0' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-08-03T12:51:37.3540304+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-08-03T12:51:37.3715181+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-08-03T12:51:37.4641169+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 8 tests from source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T12:51:37.5093632+00:00 mstest-trace INFORMATION Created unit-test runner C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T12:51:37.5212719+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll (Workers: 4, Scope: MethodLevel)
+2025-08-03T12:51:37.5378282+00:00 mstest-trace INFORMATION Executing test Read_LineWithInvalidDataLength_LogsWarningAndSkips
+2025-08-03T12:51:37.5378409+00:00 mstest-trace INFORMATION Executing test Read_FileDoesNotExist_ReturnsEmptyArray
+2025-08-03T12:51:37.5378326+00:00 mstest-trace INFORMATION Executing test Read_InvalidPrice_SkipsLine
+2025-08-03T12:51:37.5391486+00:00 mstest-trace INFORMATION Executing test Read_ValidVacuumCleanerLine_ReturnsOneItem
+2025-08-03T12:51:37.7010026+00:00 mstest-trace INFORMATION Executed test Read_LineWithInvalidDataLength_LogsWarningAndSkips
+2025-08-03T12:51:37.7011627+00:00 mstest-trace INFORMATION Executed test Read_InvalidPrice_SkipsLine
+2025-08-03T12:51:37.7011995+00:00 mstest-trace INFORMATION Executed test Read_FileDoesNotExist_ReturnsEmptyArray
+2025-08-03T12:51:37.7096414+00:00 mstest-trace INFORMATION Executed test Read_ValidVacuumCleanerLine_ReturnsOneItem
+2025-08-03T12:51:37.7126876+00:00 mstest-trace INFORMATION Executing test Read_ValidWashingMachineLine_ReturnsOneItem
+2025-08-03T12:51:37.7126876+00:00 mstest-trace INFORMATION Executing test Read_InvalidPowerInVacuumCleaner_SkipsLine
+2025-08-03T12:51:37.7126852+00:00 mstest-trace INFORMATION Executing test Read_UnknownType_SkipsLine
+2025-08-03T12:51:37.7126853+00:00 mstest-trace INFORMATION Executing test Read_ValidFoodProcessorLine_ReturnsOneItem
+2025-08-03T12:51:37.7188186+00:00 mstest-trace INFORMATION Executed test Read_InvalidPowerInVacuumCleaner_SkipsLine
+2025-08-03T12:51:37.7188890+00:00 mstest-trace INFORMATION Executed test Read_ValidFoodProcessorLine_ReturnsOneItem
+2025-08-03T12:51:37.7189953+00:00 mstest-trace INFORMATION Executed test Read_ValidWashingMachineLine_ReturnsOneItem
+2025-08-03T12:51:37.7224166+00:00 mstest-trace INFORMATION Executed test Read_UnknownType_SkipsLine
+2025-08-03T12:51:37.7231506+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll

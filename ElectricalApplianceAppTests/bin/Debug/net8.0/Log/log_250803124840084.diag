@@ -1,0 +1,40 @@
+2025-08-03T12:48:40.0991740+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.8.0+cbe2c37371429b81c53f85e4ab4ad62b4df7a71e
+2025-08-03T12:48:40.1264235+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-08-03T12:48:40.1291088+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-08-03T12:48:40.1291229+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 12:48:40.046
+2025-08-03T12:48:40.1301076+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 10256
+2025-08-03T12:48:40.1302978+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.17
+2025-08-03T12:48:40.1303140+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.17\System.Private.CoreLib.dll
+2025-08-03T12:48:40.1303305+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-08-03T12:48:40.1304214+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T12:48:40.1308058+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\Log --results-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\TestResults --client-port 54159'
+2025-08-03T12:48:40.1334463+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-08-03T12:48:40.1804668+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-08-03T12:48:40.2239701+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-08-03T12:48:40.6435394+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.10.0' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-08-03T12:48:40.7293378+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-08-03T12:48:40.7432724+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-08-03T12:48:40.8303148+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 8 tests from source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T12:48:40.8765560+00:00 mstest-trace INFORMATION Created unit-test runner C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T12:48:40.8910326+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll (Workers: 4, Scope: MethodLevel)
+2025-08-03T12:48:40.9097300+00:00 mstest-trace INFORMATION Executing test Read_InvalidPrice_SkipsLine
+2025-08-03T12:48:40.9097333+00:00 mstest-trace INFORMATION Executing test Read_FileDoesNotExist_ReturnsEmptyArray
+2025-08-03T12:48:40.9097335+00:00 mstest-trace INFORMATION Executing test Read_LineWithInvalidDataLength_LogsWarningAndSkips
+2025-08-03T12:48:40.9117801+00:00 mstest-trace INFORMATION Executing test Read_ValidVacuumCleanerLine_ReturnsOneItem
+2025-08-03T12:48:41.2842837+00:00 mstest-trace INFORMATION Executed test Read_FileDoesNotExist_ReturnsEmptyArray
+2025-08-03T12:48:41.2855971+00:00 mstest-trace INFORMATION Executed test Read_LineWithInvalidDataLength_LogsWarningAndSkips
+2025-08-03T12:48:41.2964255+00:00 mstest-trace INFORMATION Executed test Read_ValidVacuumCleanerLine_ReturnsOneItem
+2025-08-03T12:48:41.3003609+00:00 mstest-trace INFORMATION Executing test Read_ValidFoodProcessorLine_ReturnsOneItem
+2025-08-03T12:48:41.3003609+00:00 mstest-trace INFORMATION Executing test Read_ValidWashingMachineLine_ReturnsOneItem
+2025-08-03T12:48:41.3005555+00:00 mstest-trace INFORMATION Executing test Read_UnknownType_SkipsLine
+2025-08-03T12:48:41.3208883+00:00 mstest-trace INFORMATION Executed test Read_ValidFoodProcessorLine_ReturnsOneItem
+2025-08-03T12:48:41.3210650+00:00 mstest-trace INFORMATION Executing test Read_InvalidPowerInVacuumCleaner_SkipsLine
+2025-08-03T12:48:41.3215436+00:00 mstest-trace INFORMATION Executed test Read_ValidWashingMachineLine_ReturnsOneItem
+2025-08-03T12:48:41.3282318+00:00 mstest-trace INFORMATION Executed test Read_UnknownType_SkipsLine
+2025-08-03T12:48:41.3389404+00:00 mstest-trace INFORMATION Executed test Read_InvalidPowerInVacuumCleaner_SkipsLine
+2025-08-03T12:48:41.3715254+00:00 mstest-trace INFORMATION Executed test Read_InvalidPrice_SkipsLine
+2025-08-03T12:48:41.3716187+00:00 mstest-trace INFORMATION MSTestExecutor:Test ElectricalApplianceAppTests.AppliancesReaderTests.Read_InvalidPrice_SkipsLine failed. ErrorMessage:Assert.AreEqual failed. Expected:<0>. Actual:<1>. , ErrorStackTrace:   at ElectricalApplianceAppTests.AppliancesReaderTests.Read_InvalidPrice_SkipsLine() in C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\AppliancesReaderTests.cs:line 42
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-08-03T12:48:41.3723930+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll

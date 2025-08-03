@@ -1,0 +1,17 @@
+2025-08-03T14:59:03.4215734+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.8.0+cbe2c37371429b81c53f85e4ab4ad62b4df7a71e
+2025-08-03T14:59:03.4449866+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-08-03T14:59:03.4471535+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-08-03T14:59:03.4472889+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 14:59:03.370
+2025-08-03T14:59:03.4488614+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 2836
+2025-08-03T14:59:03.4492394+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.17
+2025-08-03T14:59:03.4492730+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.17\System.Private.CoreLib.dll
+2025-08-03T14:59:03.4493021+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-08-03T14:59:03.4494645+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T14:59:03.4502007+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\Log --results-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\TestResults --client-port 54574'
+2025-08-03T14:59:03.4536774+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-08-03T14:59:03.5006376+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-08-03T14:59:03.5242541+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-08-03T14:59:03.8514925+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.10.0' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-08-03T14:59:03.8768470+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter WARNING Runsettings attribute 'MaxCpuCount' is not supported by Microsoft.Testing.Platform and will be ignored
+2025-08-03T14:59:03.8976060+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-08-03T14:59:03.9992577+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 22 tests from source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll

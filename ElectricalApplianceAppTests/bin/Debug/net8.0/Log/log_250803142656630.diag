@@ -1,0 +1,36 @@
+2025-08-03T14:26:56.6452691+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 1.8.0+cbe2c37371429b81c53f85e4ab4ad62b4df7a71e
+2025-08-03T14:26:56.6777642+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2025-08-03T14:26:56.6820573+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2025-08-03T14:26:56.6820700+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 14:26:56.588
+2025-08-03T14:26:56.6835566+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 15176
+2025-08-03T14:26:56.6839018+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 8.0.17
+2025-08-03T14:26:56.6839351+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\8.0.17\System.Private.CoreLib.dll
+2025-08-03T14:26:56.6839674+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2025-08-03T14:26:56.6841400+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T14:26:56.6847007+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\Log --results-directory C:\Users\Yana\source\repos\ElectricalAppliancesApp\TestResults --client-port 54460'
+2025-08-03T14:26:56.6884013+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2025-08-03T14:26:56.7574427+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2025-08-03T14:26:56.7973916+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2025-08-03T14:26:57.1949126+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '3.10.0' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2025-08-03T14:26:57.2780522+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2025-08-03T14:26:57.2925727+00:00 mstest-trace INFORMATION CollectSourceInformation value found : False 
+2025-08-03T14:26:57.3883875+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 17 tests from source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T14:26:57.4435333+00:00 mstest-trace INFORMATION Created unit-test runner C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
+2025-08-03T14:26:57.4608405+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION Test Parallelization enabled for C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll (Workers: 4, Scope: MethodLevel)
+2025-08-03T14:26:57.4842616+00:00 mstest-trace INFORMATION Executing test WriteSortedWithCountToFile_ValidData_WritesSortedCount
+2025-08-03T14:26:57.4850989+00:00 mstest-trace INFORMATION Executing test WriteSortedWithCountToFile_NullInput_DoesNotThrow
+2025-08-03T14:26:57.4851932+00:00 mstest-trace INFORMATION Executing test WriteSortedWithCountToFile_ArrayContainsNull_IgnoresNullsAndWritesCorrectly
+2025-08-03T14:26:57.4882069+00:00 mstest-trace INFORMATION Executing test WriteByBrandToFile_ValidBrand_WritesCorrectData
+2025-08-03T14:26:57.5469589+00:00 mstest-trace INFORMATION Executed test WriteSortedWithCountToFile_NullInput_DoesNotThrow
+2025-08-03T14:26:57.5619870+00:00 mstest-trace INFORMATION Executing test WriteByBrandToFile_InvalidBrand_WritesNoData
+2025-08-03T14:26:57.5717113+00:00 mstest-trace INFORMATION Executed test WriteByBrandToFile_ValidBrand_WritesCorrectData
+2025-08-03T14:26:57.5720080+00:00 mstest-trace INFORMATION Executing test WriteByBrandToFile_NullBrand_DoesNotWriteFile
+2025-08-03T14:26:57.5721416+00:00 mstest-trace INFORMATION Executed test WriteSortedWithCountToFile_ArrayContainsNull_IgnoresNullsAndWritesCorrectly
+2025-08-03T14:26:57.5736790+00:00 mstest-trace INFORMATION Executed test WriteSortedWithCountToFile_ValidData_WritesSortedCount
+2025-08-03T14:26:57.5766713+00:00 mstest-trace INFORMATION Executed test WriteByBrandToFile_NullBrand_DoesNotWriteFile
+2025-08-03T14:26:57.6284341+00:00 mstest-trace INFORMATION Executed test WriteByBrandToFile_InvalidBrand_WritesNoData
+2025-08-03T14:26:57.6285197+00:00 mstest-trace INFORMATION MSTestExecutor:Test ElectricalApplianceAppTests.AppliancesWriterTests.WriteByBrandToFile_InvalidBrand_WritesNoData failed. ErrorMessage:Assert.IsTrue failed. , ErrorStackTrace:   at ElectricalApplianceAppTests.AppliancesWriterTests.WriteByBrandToFile_InvalidBrand_WritesNoData() in C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\AppliancesWriterTests.cs:line 85
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+.
+2025-08-03T14:26:57.6292789+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\Users\Yana\source\repos\ElectricalAppliancesApp\ElectricalApplianceAppTests\bin\Debug\net8.0\ElectricalApplianceAppTests.dll
